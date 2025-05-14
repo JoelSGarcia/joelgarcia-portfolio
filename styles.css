@@ -1,0 +1,16 @@
+/* Style for navigation links */
+nav ul li a {
+  display: inline-block; /* Makes the link act like a button */
+  padding: 10px 20px; /* Adds space inside the button */
+  background-color: #ffd700; /* Bright yellow background */
+  color: black; /* Black text */
+  text-decoration: none; /* Removes the underline */
+  font-family: Arial, sans-serif; /* Simple font */
+  font-size: 16px; /* Text size */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Hover effect (optional) */
+nav ul li a:hover {
+  background-color: #e6c200; /* Slightly darker yellow when hovering */
+}
