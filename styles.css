@@ -14,3 +14,26 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #e6c200; /* Slightly darker yellow when hovering */
 }
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffd700; /* Yellow */
+  color: black;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #e6c200; /* Darker yellow on hover */
+}
