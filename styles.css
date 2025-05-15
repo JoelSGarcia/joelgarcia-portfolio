@@ -146,6 +146,26 @@ img {
   text-decoration: underline;
 }
 
+/* Policy Pages */
+#terms,
+#cookie-policy,
+#privacy-policy {
+  padding: 80px 20px;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#terms p,
+#cookie-policy p,
+#privacy-policy p {
+  max-width: 800px;
+  margin: 10px auto;
+  font-size: 18px;
+}
+
 /* Footer */
 footer {
   background-color: #333333;
@@ -153,6 +173,20 @@ footer {
   text-align: center;
   padding: 10px 0;
   width: 100%;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #ffd700;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 /* Button Styles */
@@ -197,6 +231,42 @@ footer {
 
 .resume-page .button:hover {
   background: linear-gradient(to right, #333333, #000000);
+}
+
+/* Cookie Popup */
+#cookie-popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  z-index: 1000;
+  display: none;
+}
+
+#cookie-popup a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+#cookie-popup a:hover {
+  text-decoration: underline;
+}
+
+#accept-cookies {
+  background-color: #ffd700;
+  color: #000;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#accept-cookies:hover {
+  background-color: #ffa500;
 }
 
 /* Responsive Design */
